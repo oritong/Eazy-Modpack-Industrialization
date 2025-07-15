@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "atouhoulittlemaidr"
+	group: "146543A7996E0F1B"
+	icon: "touhou_little_maid:maid_spawn_egg"
+	id: "2D5B89DD8EF5F85C"
+	order_index: 11
+	quest_links: [ ]
+	quests: [ ]
+	title: "[&aTouhou Little Maid&r]车万女仆"
+}

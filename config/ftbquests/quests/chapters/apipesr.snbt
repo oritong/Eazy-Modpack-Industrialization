@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apipesr"
+	group: "146543A7996E0F1B"
+	icon: "buildinggadgets2:gadget_building"
+	id: "086C29D10E82FFFD"
+	order_index: 8
+	quest_links: [ ]
+	quests: [ ]
+	title: "[&3Pipes/Storage/Building&r]管道/存储/建筑模组"
+}

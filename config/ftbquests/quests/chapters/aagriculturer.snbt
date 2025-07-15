@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aagriculturer"
+	group: "146543A7996E0F1B"
+	icon: "farmersdelight:tomato"
+	id: "4598E3B3D3D2C27D"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "[&3Agriculture&r]一些农业模组"
+}

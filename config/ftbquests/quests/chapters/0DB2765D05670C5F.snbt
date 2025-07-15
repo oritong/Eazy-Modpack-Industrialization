@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0DB2765D05670C5F"
+	group: "146543A7996E0F1B"
+	icon: "pneumaticcraft:ingot_iron_compressed"
+	id: "0DB2765D05670C5F"
+	order_index: 9
+	quest_links: [ ]
+	quests: [ ]
+	title: "[&aPneumaticCraft&r]气动工艺"
+}

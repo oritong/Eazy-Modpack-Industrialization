@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aapplied_energistics_2r2"
+	group: "146543A7996E0F1B"
+	icon: "ae2:controller"
+	id: "285988D64C4D1F6D"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "[&aApplied Energistics 2&r]应用能源2"
+}

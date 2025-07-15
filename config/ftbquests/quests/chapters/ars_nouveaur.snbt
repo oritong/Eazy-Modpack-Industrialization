@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ars_nouveaur"
+	group: "146543A7996E0F1B"
+	icon: "ars_nouveau:creative_spell_book"
+	id: "50ACBFE34E397EA6"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+	title: "[&aArs Nouveau&r]新生魔艺"
+}

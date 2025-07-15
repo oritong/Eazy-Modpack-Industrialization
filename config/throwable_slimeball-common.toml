@@ -1,0 +1,15 @@
+
+["Throwable Settings"]
+	#The max times that a slime ball can bounce
+	#Range: 0 ~ 12
+	slimeBallMaxBounceTimes = 3
+	#The max times that a magma cream can bounce
+	#Range: 0 ~ 12
+	magmaCreamMaxBounceTimes = 3
+	#The decay of a slime ball's speed after bouncing
+	#Range: 0.0 ~ 1.0
+	slimeBallSpeedDecay = 0.3
+	#The decay of a slime ball's speed after bouncing
+	#Range: 0.0 ~ 1.0
+	magmaCreamSpeedDecay = 0.4
+

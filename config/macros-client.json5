@@ -1,0 +1,13 @@
+[
+    {
+    "macro":"command_macro_key:single",
+    "command": "/kubejs hand",
+    "primaryKey": 327,
+    "modifierKey": 0
+    },{
+    "macro":"command_macro_key:single",
+    "command": "/reload",
+    "primaryKey": 328,
+    "modifierKey": 0
+    }
+]

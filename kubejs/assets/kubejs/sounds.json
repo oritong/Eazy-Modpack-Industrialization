@@ -1,0 +1,18 @@
+{
+    "music.black_knife": {
+        "sounds": [
+            {
+                "name": "kubejs:black_knife",
+                "stream": true
+            }
+        ]
+    },
+    "music.mystic_light_quest":{
+        "sounds": [
+            {
+                "name": "kubejs:mystic_light_quest",
+                "stream": true
+            }
+        ]
+    }
+}

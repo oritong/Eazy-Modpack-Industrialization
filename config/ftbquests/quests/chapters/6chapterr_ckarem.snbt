@@ -1,0 +1,18 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6chapterr_ckarem"
+	group: "5871DDDE4F70BC4C"
+	icon: {
+		Count: 1
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "avaritia:block/machine/craft/sculk_crafting_table_bottom"
+		}
+	}
+	id: "697205B30F727C98"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "&6Chapter&r &c&ka&r.&e&m隐藏章节&r已删除"
+}

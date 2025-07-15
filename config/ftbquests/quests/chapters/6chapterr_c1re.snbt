@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6chapterr_c1re"
+	group: "5871DDDE4F70BC4C"
+	icon: "botania:third_eye"
+	id: "430CD10BD72D05BE"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "&6Chapter&r &c2&r.&e心率加速度"
+}

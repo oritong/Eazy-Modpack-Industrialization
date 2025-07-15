@@ -1,0 +1,1037 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4chapterr_1e"
+	group: "5871DDDE4F70BC4C"
+	icon: "minecraft:grass_block"
+	id: "510BB7C869DFC805"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["467BC57CC9275472"]
+			id: "530415B3D7862FD0"
+			shape: "circle"
+			tasks: [{
+				id: "2B5434B3FE82A971"
+				item: "kitchenkarrot:gem_carrot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5F3E97FDE16FD698"]
+			id: "7ABE86FFFC5A991B"
+			tasks: [{
+				id: "74F47528086348C8"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["74621FB1147C1258"]
+			id: "1BC5944792FB97D0"
+			tasks: [{
+				id: "157138C9712BA5EB"
+				item: "ars_nouveau:agronomic_sourcelink"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"530415B3D7862FD0"
+				"65DAB44E1073213E"
+				"772BBCC4D32725B4"
+			]
+			dependency_requirement: "one_started"
+			disable_toast: true
+			icon: "ars_nouveau:imbuement_chamber"
+			icon_scale: 1.3d
+			id: "5F3E97FDE16FD698"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "0169FD8BE2247B7A"
+				title: "那很好看了"
+				type: "checkmark"
+			}]
+			title: "看看你的灌注室！"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7DB5E00D24989107"]
+			id: "5E48A488D2DD5CA3"
+			tasks: [{
+				id: "535BFB3C488EC4A1"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "item_tag(arsdelight:leaves)"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5E48A488D2DD5CA3"]
+			id: "01D7AB403955042F"
+			tasks: [{
+				id: "5EA290B12B1D24C6"
+				item: "gtceu:fine_gold_wire"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.5d
+		}
+		{
+			icon_scale: 1.3d
+			id: "772BBCC4D32725B4"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "65BF05686E1C9F56"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item(ars_nouveau:blue_archwood_sapling)item(ars_nouveau:purple_archwood_sapling)item(ars_nouveau:red_archwood_sapling)item(ars_nouveau:green_archwood_sapling))"
+					}
+				}
+				title: "四种树苗"
+				type: "item"
+			}]
+			title: "开局树苗"
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			icon_scale: 1.3d
+			id: "467BC57CC9275472"
+			rewards: [{
+				id: "3A8D061FC3A1226B"
+				item: {
+					Count: 1
+					id: "gtceu:neutronium_hoe"
+					tag: {
+						DisallowContainerItem: 0b
+						GT.Behaviours: {
+							RelocateMinedBlocks: 1b
+							RelocateMobDrops: 1b
+						}
+						GT.Tool: {
+							Damage: 0
+							Enchantability: 33
+							MaxDamage: 65534
+						}
+						HideFlags: 2
+						Unbreakable: 1b
+					}
+				}
+				type: "item"
+			}]
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "03A811ACC6832BE2"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.75d
+		}
+		{
+			can_repeat: true
+			dependencies: ["530415B3D7862FD0"]
+			icon: "kitchenkarrot:carrot_tart"
+			id: "1E399AC44215F720"
+			rewards: [{
+				count: 2
+				id: "1F687DB79E88EE2C"
+				item: "kitchenkarrot:gem_carrot"
+				random_bonus: 1
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				count: 128L
+				disable_toast: true
+				id: "5383691ED727CC67"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			title: "胡萝卜换宝石胡萝卜"
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["772BBCC4D32725B4"]
+			id: "19251B87B54AFB5C"
+			tasks: [{
+				id: "2318532DB6491C6D"
+				item: "ars_nouveau:archwood_planks"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["19251B87B54AFB5C"]
+			id: "2622DDCAE9FC9A00"
+			tasks: [{
+				id: "4139478DBFFFF42E"
+				item: "tconstruct:pattern"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"68718DFD68371CF5"
+				"36264C177B9318C6"
+			]
+			id: "1EDEB6390DB0C478"
+			tasks: [{
+				id: "1FA7E2040A349CCD"
+				item: "gtceu:paper_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			icon_scale: 1.3d
+			id: "68718DFD68371CF5"
+			shape: "octagon"
+			size: 1.5d
+			tasks: [{
+				id: "2F5D1B19A2FBE9CA"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.25d
+		}
+		{
+			dependencies: [
+				"2622DDCAE9FC9A00"
+				"1EDEB6390DB0C478"
+				"36264C177B9318C6"
+			]
+			id: "3F078072481D2BB6"
+			tasks: [{
+				id: "3557095297F5DF19"
+				item: "kubejs:pattern_with_paper"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3F078072481D2BB6"]
+			id: "65DAB44E1073213E"
+			tasks: [{
+				id: "32D75D5E77C63814"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2622DDCAE9FC9A00"]
+			id: "36264C177B9318C6"
+			rewards: [
+				{
+					id: "19D7506325F56669"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_hammer"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+								RelocateMobDrops: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								HarvestLevel: 6
+								MaxDamage: 65534
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5815F16B66AF2E1E"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_file"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+								RelocateMobDrops: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								MaxDamage: 65534
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BF1049142D7BCAE"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_saw"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								HarvestIce: 1b
+								RelocateMinedBlocks: 1b
+								RelocateMobDrops: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								MaxDamage: 65534
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2D6AD99ED7C85319"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_wire_cutter"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+								RelocateMobDrops: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								HarvestLevel: 6
+								MaxDamage: 65534
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31F4A04E377B22F8"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_screwdriver"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+								RelocateMobDrops: 1b
+							}
+							GT.Tool: {
+								AttackDamage: 99.0f
+								AttackSpeed: 3.5f
+								Damage: 0
+								Enchantability: 33
+								MaxDamage: 65534
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43665501650C4D4E"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_knife"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+								RelocateMobDrops: 1b
+							}
+							GT.Tool: {
+								AttackDamage: 100.0f
+								AttackSpeed: 3.5f
+								Damage: 0
+								Enchantability: 33
+								MaxDamage: 65534
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E83C2A38472ABC8"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_crowbar"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								RelocateMinedBlocks: 1b
+								RelocateMobDrops: 1b
+							}
+							GT.Tool: {
+								AttackDamage: 102.0f
+								AttackSpeed: -1.9000001f
+								Damage: 0
+								Enchantability: 33
+								HarvestLevel: 6
+								MaxDamage: 65534
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "27CCC1C1C8A7878B"
+					item: {
+						Count: 1
+						id: "gtceu:neutronium_wrench"
+						tag: {
+							DisallowContainerItem: 0b
+							GT.Behaviours: {
+								Mode: 2b
+								RelocateMinedBlocks: 1b
+								RelocateMobDrops: 1b
+							}
+							GT.Tool: {
+								Damage: 0
+								Enchantability: 33
+								HarvestLevel: 6
+								MaxDamage: 65534
+								ToolSpeed: 184.0f
+							}
+							HideFlags: 2
+							Unbreakable: 1b
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "134A1BB6B07745DA"
+				item: "tconstruct:crafting_station"
+				match_nbt: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2622DDCAE9FC9A00"]
+			id: "262F371CEDC8C243"
+			tasks: [{
+				id: "402D28DFD7C5C041"
+				item: {
+					Count: 1
+					id: "tconstruct:tinker_station"
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+				match_nbt: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2622DDCAE9FC9A00"]
+			id: "209C060EBDB2DB6B"
+			tasks: [{
+				id: "182DD5F0F0A4320A"
+				item: "tconstruct:part_builder"
+				match_nbt: false
+				type: "item"
+				weak_nbt_match: true
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5F3E97FDE16FD698"]
+			id: "7DB5E00D24989107"
+			tasks: [{
+				id: "51F43152930C7456"
+				item: "tconstruct:silky_cloth"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5F3E97FDE16FD698"]
+			id: "75BE06418ECA55EC"
+			tasks: [
+				{
+					id: "03B3E0378E5712A7"
+					item: "ars_nouveau:mendosteen_pod"
+					type: "item"
+				}
+				{
+					id: "7C61ABB661481C80"
+					item: "ars_nouveau:bastion_pod"
+					type: "item"
+				}
+				{
+					id: "5411FF77B134B079"
+					item: "ars_nouveau:frostaya_pod"
+					type: "item"
+				}
+				{
+					id: "567CE8830F9B8CA8"
+					item: "ars_nouveau:bombegranate_pod"
+					type: "item"
+				}
+			]
+			title: "有用的果实们"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["75BE06418ECA55EC"]
+			icon: "minecraft:fire_charge"
+			id: "53915F54D1010D70"
+			tasks: [{
+				id: "1EC5886BD85A04F6"
+				item: "minecraft:fire_charge"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"53915F54D1010D70"
+				"01D7AB403955042F"
+			]
+			id: "4959EC9059915D72"
+			tasks: [{
+				id: "776D6D66B6893660"
+				item: "minecraft:gold_nugget"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7ABE86FFFC5A991B"]
+			id: "0069F681C85AC03D"
+			tasks: [{
+				id: "174B90FF3126462C"
+				item: "minecraft:amethyst_shard"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5F3E97FDE16FD698"]
+			id: "5F98CE11DA1436C6"
+			tasks: [{
+				id: "4A66A424B0C61343"
+				item: "botania:livingwood_log"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7ABE86FFFC5A991B"
+				"5F98CE11DA1436C6"
+				"01D7AB403955042F"
+				"53915F54D1010D70"
+				"0D35DCE828530130"
+				"7645676C709BFA86"
+				"1BC5944792FB97D0"
+			]
+			icon_scale: 1.2d
+			id: "45BAA50C22D7D2F7"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "2B9A0B6D2594ACCA"
+				item: "arsmeteorites:ritual_conjure_meteorites"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0069F681C85AC03D"]
+			id: "53A47031DD0C618E"
+			tasks: [{
+				id: "51A07AB4919B0E0D"
+				item: "ars_nouveau:arcane_pedestal"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["53A47031DD0C618E"]
+			id: "74621FB1147C1258"
+			tasks: [{
+				id: "6619448D8365ED75"
+				item: "minecraft:golden_carrot"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7ABE86FFFC5A991B"]
+			id: "002C396365806090"
+			shape: "gear"
+			tasks: [{
+				id: "00DA5DF6456C06E4"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["36264C177B9318C6"]
+			hide_dependency_lines: true
+			id: "0D35DCE828530130"
+			tasks: [{
+				id: "00B718269BCF1311"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"36264C177B9318C6"
+				"30D2DE5565C6A36E"
+			]
+			hide_dependency_lines: true
+			id: "531171C8395388D1"
+			tasks: [{
+				id: "55528E17E0BC3CF3"
+				item: "gtceu:glass_dust"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["531171C8395388D1"]
+			id: "56680190A056F61D"
+			tasks: [{
+				id: "023F5AE19B7EEEBD"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"56680190A056F61D"
+				"0D35DCE828530130"
+			]
+			id: "7645676C709BFA86"
+			tasks: [{
+				id: "450C235BAA463423"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["45BAA50C22D7D2F7"]
+			id: "2AB4ABEAFD005A6F"
+			subtitle: "来硬的！"
+			tasks: [{
+				id: "399A08084AA66AE5"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2AB4ABEAFD005A6F"]
+			id: "33814E8DEEF61CEC"
+			tasks: [{
+				id: "2650442E304FDD9F"
+				item: "gtceu:wrought_iron_ingot"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"33814E8DEEF61CEC"
+				"48782388B6BC8EA6"
+			]
+			id: "2D45662BB22D8B63"
+			tasks: [{
+				id: "669D9ED40992F5EE"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["53B3B8BA2C9C3318"]
+			id: "48782388B6BC8EA6"
+			tasks: [{
+				id: "6BA6F797D51361FE"
+				item: "gtceu:treated_wood_planks"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["42EEA038B572FCF9"]
+			id: "53B3B8BA2C9C3318"
+			tasks: [{
+				id: "28272E2CCDBA22C4"
+				item: "gtceu:creosote_bucket"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6A6C01A5D0EA0E3F"]
+			description: ["由于mbd2的神秘BUG，该机器暂时只能用流体管道取出液体"]
+			id: "42EEA038B572FCF9"
+			rewards: [{
+				id: "50834F4232002049"
+				item: "mekanism:basic_fluid_tank"
+				type: "item"
+			}]
+			subtitle: "焦糖可乐"
+			tasks: [
+				{
+					id: "342BF5C9F1AC5262"
+					item: "mbd2:coke_oven"
+					type: "item"
+				}
+				{
+					id: "24C3E260058557BD"
+					item: "gtceu:coke_oven_bricks"
+					type: "item"
+				}
+			]
+			title: "焦炉"
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["30D2DE5565C6A36E"]
+			id: "6A6C01A5D0EA0E3F"
+			rewards: [{
+				count: 64
+				id: "4A507842A04C41C7"
+				item: "curvy_pipes:tiny_fluid_pipe"
+				type: "item"
+			}]
+			tasks: [{
+				id: "265927126C4B7073"
+				item: "gtceu:brick_wooden_form"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["36264C177B9318C6"]
+			hide_dependency_lines: true
+			id: "30D2DE5565C6A36E"
+			tasks: [
+				{
+					id: "5262068DAE39C73F"
+					item: "minecraft:sand"
+					type: "item"
+				}
+				{
+					id: "5ACD479E21F547ED"
+					item: "minecraft:gravel"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"2D45662BB22D8B63"
+				"523EB704829C4F53"
+			]
+			id: "32EC6CA3AE843A64"
+			tasks: [{
+				id: "3231FBB12F140D0E"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["19251B87B54AFB5C"]
+			hide_dependency_lines: true
+			id: "523EB704829C4F53"
+			tasks: [{
+				id: "466EDECA32D8AC83"
+				item: "minecraft:composter"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["523EB704829C4F53"]
+			id: "5C053964A319F21D"
+			tasks: [{
+				id: "62728452AFA15FD0"
+				item: "ars_nouveau:magebloom_crop"
+				type: "item"
+			}]
+			x: 21.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"5C053964A319F21D"
+				"32EC6CA3AE843A64"
+			]
+			id: "6A53CC0D9BA722DB"
+			tasks: [{
+				id: "6BE87152629885D5"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: 21.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6A53CC0D9BA722DB"]
+			description: [
+				"能装&e100w&r&bmana&r，相当于&a100&r个&c魔源罐&r（"
+				"同时，有些物品需要在此池子中投掷合成"
+			]
+			id: "204E3CADFC99A536"
+			shape: "circle"
+			subtitle: "大点的魔源罐"
+			tasks: [{
+				id: "01B620AFFC0A49F5"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5C053964A319F21D"]
+			description: ["将&d橙色魔花床&r在&9仪式火盆&r中在陨星之板上激活，并消耗大量的&bmana&r，就可以得到&a非常多&r的&c神秘花瓣&r"]
+			id: "37D68682D2C7132F"
+			subtitle: "继续坠！"
+			tasks: [{
+				id: "7B714786C20EB667"
+				item: "ars_nouveau:orange_sbed"
+				type: "item"
+			}]
+			x: 21.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["37D68682D2C7132F"]
+			description: [
+				"把&b神秘花花瓣&r种在白雏菊旁，过5秒你就能收成一株高神秘花了！"
+				"&c&m即使骨粉其实也有一样的效果而且更快&r"
+			]
+			id: "37A853B1985AAF0E"
+			shape: "gear"
+			subtitle: "花肥？那是什么？"
+			tasks: [{
+				id: "2CEDDF8B343C5267"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "or(item_tag(botania:double_mystical_flowers))"
+					}
+				}
+				title: "高神秘花"
+				type: "item"
+			}]
+			title: "高神秘花"
+			x: 23.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"37D68682D2C7132F"
+				"523EB704829C4F53"
+			]
+			id: "09A762EA4C37AAE3"
+			tasks: [{
+				id: "03C1476E23B61832"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			x: 19.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["09A762EA4C37AAE3"]
+			id: "31EF968761F47D59"
+			tasks: [{
+				id: "057EB6272ADEBC32"
+				item: "gtceu:rubber_sapling"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["31EF968761F47D59"]
+			id: "01114FA23BD055C1"
+			tasks: [{
+				id: "2AA1E495317062C4"
+				item: "gtceu:sticky_resin"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2AB4ABEAFD005A6F"]
+			hide_dependency_lines: true
+			icon: "mbd2:primitive_blast_furnace"
+			id: "064BD63CBEBE8939"
+			tasks: [
+				{
+					id: "6BD6327E08618FC2"
+					item: "mbd2:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					id: "7F8FC7A2EB7FD221"
+					item: "mbd2:proto_smelter_crucible"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "0EF832208D0E922E"
+					item: { Count: 32, id: "gtceu:firebricks" }
+					type: "item"
+				}
+				{
+					id: "34AECA64E69589BE"
+					item: "minecraft:iron_bars"
+					type: "item"
+				}
+			]
+			x: 17.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["064BD63CBEBE8939"]
+			id: "3276B8E2C792F1AF"
+			tasks: [{
+				id: "68F1A3FE0F9B47B6"
+				item: "kubejs:uncooked_steel_dust"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3276B8E2C792F1AF"]
+			id: "4CF1449F7F0BA6E1"
+			tasks: [{
+				id: "42213AE20E098A3E"
+				item: "mekanism:ingot_steel"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4CF1449F7F0BA6E1"]
+			id: "5C4797B4736D0E6D"
+			tasks: [{
+				id: "3E8336359724FDE8"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5C4797B4736D0E6D"]
+			id: "6EC78D1249045DBC"
+			tasks: [{
+				id: "59DF77B5D6D1E44C"
+				item: "gtceu:annealed_copper_ingot"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6EC78D1249045DBC"]
+			id: "69294CB7A4E9DF9D"
+			tasks: [{
+				id: "27A713CAFCABDCE8"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 3.5d
+		}
+	]
+	title: "&6Chapter&r &c1&r.&e一切的伊始"
+}

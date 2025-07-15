@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6chapterr_c4re"
+	group: "5871DDDE4F70BC4C"
+	icon: "ae2:singularity"
+	id: "3A677F0CB8E50ABB"
+	order_index: 3
+	quest_links: [ ]
+	quests: [ ]
+	title: "&6Chapter&r &c4&r.&e世界的终点，我们的起点"
+}

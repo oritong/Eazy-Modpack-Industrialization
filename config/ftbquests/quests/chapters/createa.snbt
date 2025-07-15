@@ -1,0 +1,72 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "createa"
+	group: "146543A7996E0F1B"
+	icon: "create:cogwheel"
+	id: "26D4C00506270934"
+	order_index: 5
+	quest_links: [
+		{
+			disable_toast: true
+			id: "2F5979BE40A92F37"
+			linked_quest: "2D45662BB22D8B63"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "02A1A8686BD8B2D0"
+			linked_quest: "69294CB7A4E9DF9D"
+			x: 7.0d
+			y: 3.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["2D45662BB22D8B63"]
+			id: "75CF8B19643748E3"
+			tasks: [{
+				id: "4D199773FF40CC62"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2D45662BB22D8B63"]
+			id: "236B973C20F41FAE"
+			tasks: [{
+				id: "7D5D288883B7DE46"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2D45662BB22D8B63"]
+			id: "110A6A49267FFF5F"
+			tasks: [{
+				id: "228FFA9DFEB0F77F"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2D45662BB22D8B63"]
+			id: "215B13997A9230F4"
+			tasks: [{
+				id: "1FA3A68CD90CE3B9"
+				item: "create:basin"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+	]
+	title: "[&aCreate&r]机械动力"
+}

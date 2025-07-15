@@ -1,0 +1,62 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "amekanismr"
+	group: "146543A7996E0F1B"
+	icon: {
+		Count: 1
+		id: "mekanism:meka_tool"
+		tag: {
+			mekData: {
+				EnergyContainers: [{
+					Container: 0b
+					stored: "16000000"
+				}]
+			}
+		}
+	}
+	id: "278BD695B84AD2C6"
+	order_index: 7
+	quest_links: [ ]
+	quests: [{
+		description: ["你需要使用&e机械动力&r处理&c铂系矿泥&r得到这6种粉来&9开启&rMEK"]
+		id: "7F012520B0B05957"
+		subtitle: "必要的准备"
+		tasks: [
+			{
+				id: "3D86CCF581CD0FEF"
+				item: "gtceu:platinum_dust"
+				type: "item"
+			}
+			{
+				id: "3E935D4D88EB823D"
+				item: "gtceu:palladium_dust"
+				type: "item"
+			}
+			{
+				id: "7F4DC33B30617067"
+				item: "gtceu:iridium_dust"
+				type: "item"
+			}
+			{
+				id: "2EE3B8E254D86D88"
+				item: "gtceu:ruthenium_dust"
+				type: "item"
+			}
+			{
+				id: "45F12C35DA9E72BC"
+				item: "gtceu:osmium_dust"
+				type: "item"
+			}
+			{
+				id: "1F22586901514A56"
+				item: "gtceu:rhodium_dust"
+				type: "item"
+			}
+		]
+		title: "铂族金属处理"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "[&aMekanism&r]通用机械"
+}

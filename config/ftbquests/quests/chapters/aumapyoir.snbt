@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aumapyoir"
+	group: "146543A7996E0F1B"
+	icon: "umapyoi:jewel"
+	id: "6A56C72408F6A841"
+	order_index: 12
+	quest_links: [ ]
+	quests: [ ]
+	title: "[&aUmapyoi&r]马儿蹦跳"
+}

@@ -1,0 +1,21 @@
+#Checking every tick is not efficient, how about check once every several tick?
+#Range: > 1
+checkInterval = 2
+#Matched screens would disable your IME
+screenBlacklist = []
+#Matched screens would enable your IME
+screenWhitelist = ["net.minecraft.client.gui.screens.inventory.BookEditScreen", "net.minecraft.client.gui.screens.inventory.SignEditScreen", "net.minecraft.client.gui.screens.inventory.HangingSignEditScreen", "journeymap.client.ui.waypoint.WaypointEditor", "com.ldtteam.blockout.BOScreen", "ftblibrary:dev.ftb.mods.ftblibrary.ui.ScreenWrapper", "sfm:ca.teamdman.sfm.client.gui.screen.ManagerScreen"]
+#Matched input box would disable your IME
+inputBlacklist = []
+#Matched input box would enable your IME
+inputWhitelist = ["sfm:ca.teamdman.sfm.client.gui.screen.ProgramEditorScreen"]
+#Do we output recoveredScreens? because it may cause lag
+enableScreenRecovering = false
+#Here lists all Screens that is not in whitelist nor blacklist, 
+#so you may easily add those to whitelist/blacklist.
+recoveredScreens = ["configured:com.mrcrayfish.configured.client.screen.ModConfigSelectionScreen", "configured:com.mrcrayfish.configured.client.screen.ConfigScreen", "configured:com.mrcrayfish.configured.client.screen.ModConfigSelectionScreen", "configured:com.mrcrayfish.configured.client.screen.ConfigScreen", "forge:net.minecraftforge.client.gui.ModListScreen", "sfm:ca.teamdman.sfm.client.gui.screen.ManagerScreen", "sfm:ca.teamdman.sfm.client.gui.screen.ProgramEditorScreen"]
+#Disable this and let me know if input or control is messed up
+useExperimental = true
+#Disable IME when typing commands
+checkCommandChat = true
+

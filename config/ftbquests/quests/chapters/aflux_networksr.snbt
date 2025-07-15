@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "aflux_networksr"
+	group: "146543A7996E0F1B"
+	icon: "fluxnetworks:flux_controller"
+	id: "6282A384FD4E1F76"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+	title: "[&aFlux Networks&r]通量网络"
+}

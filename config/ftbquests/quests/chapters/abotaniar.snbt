@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "abotaniar"
+	group: "146543A7996E0F1B"
+	icon: "botania:cosmetic_botanist_emblem"
+	id: "7ADEB359187691BC"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "[&aBotania&r]植物魔法"
+}
