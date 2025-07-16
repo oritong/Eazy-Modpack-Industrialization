@@ -76,8 +76,10 @@
 						"ftbfiltersystem:filter": "item_tag(arsdelight:leaves)"
 					}
 				}
+				title: "树叶"
 				type: "item"
 			}]
+			title: "四种至高木树叶"
 			x: 5.5d
 			y: 4.5d
 		}
@@ -489,7 +491,9 @@
 		}
 		{
 			dependencies: ["5F3E97FDE16FD698"]
+			description: ["使用工匠站在工具旁摆上5个丝绢，可以使这个工具附带精准采集效果！"]
 			id: "7DB5E00D24989107"
+			subtitle: "其实是升级用的"
 			tasks: [{
 				id: "51F43152930C7456"
 				item: "tconstruct:silky_cloth"
@@ -782,7 +786,7 @@
 				item: "gtceu:brick_wooden_form"
 				type: "item"
 			}]
-			x: 11.0d
+			x: 11.5d
 			y: -2.5d
 		}
 		{
@@ -801,7 +805,7 @@
 					type: "item"
 				}
 			]
-			x: 8.5d
+			x: 9.5d
 			y: -2.5d
 		}
 		{
@@ -1008,7 +1012,7 @@
 				type: "item"
 			}]
 			x: 19.5d
-			y: 1.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["5C4797B4736D0E6D"]
@@ -1019,7 +1023,7 @@
 				type: "item"
 			}]
 			x: 21.5d
-			y: 1.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["6EC78D1249045DBC"]
@@ -1029,8 +1033,72 @@
 				item: "create:copper_casing"
 				type: "item"
 			}]
+			x: 23.5d
+			y: 5.5d
+		}
+		{
+			dependencies: [
+				"4CF1449F7F0BA6E1"
+				"2D1E4A33CAA70244"
+			]
+			description: ["拥有&c16并行&r和&e33%配方时间减免&r，一台就相当于&b24个土高炉&r"]
+			id: "0C407E17ACC3E05A"
+			shape: "gear"
+			subtitle: "很强，你应该做一做"
+			tasks: [{
+				id: "6C19BFCC05CF74AC"
+				item: "mbd2:advanced_furnace_ii"
+				type: "item"
+			}]
 			x: 21.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["6A53CC0D9BA722DB"]
+			id: "2D1E4A33CAA70244"
+			tasks: [{
+				id: "2B01E96A95F80060"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 21.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"01114FA23BD055C1"
+				"110A6A49267FFF5F"
+			]
+			id: "72F36FB5FE2FEABA"
+			tasks: [{
+				id: "2F8F1FB0B08CC85F"
+				item: "gtceu:raw_rubber_dust"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["72F36FB5FE2FEABA"]
+			id: "57B3FA539B442960"
+			tasks: [{
+				id: "6E3A1F68AE39EE7D"
+				item: "kubejs:uncooked_rubber_dust"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["57B3FA539B442960"]
+			id: "6E1C90FCE6B7013A"
+			tasks: [{
+				id: "08DD3AAAD3502F57"
+				item: "gtceu:rubber_ingot"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.5d
 		}
 	]
 	title: "&6Chapter&r &c1&r.&e一切的伊始"

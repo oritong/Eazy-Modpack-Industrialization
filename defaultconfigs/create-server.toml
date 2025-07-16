@@ -1,0 +1,526 @@
+#.
+#Create的基础设施
+[infrastructure]
+	#.
+	#[单位：刻]
+	#服务器在发送 tickrate 同步数据包之前等待的时间。这些数据包帮助动画在 tps 低于 20 时更加准确。
+	#范围：> 5
+	tickrateSyncTimer = 20
+
+#.
+#Packmakers' 控制面板，用于内部配方兼容性
+[recipes]
+	#.
+	#.
+	#允许机械压床一次处理整个堆叠物品。
+	bulkPressing = false
+	#.
+	#允许机械锯一次处理整个堆叠物品。
+	bulkCutting = false
+	#.
+	#允许机械混合器 + 盆进行受支持的药水酿造。
+	allowBrewingInMixer = true
+	#.
+	#允许机械混合器 + 盆处理任何不需要形状的制作配方。
+	allowShapelessInMixer = true
+	#.
+	#允许机械压床 + 盆处理任何单一原料的 2x2 或 3x3 制作配方。
+	allowShapedSquareInPress = true
+	#.
+	#允许机械工匠处理任何标准制作配方。
+	allowRegularCraftingInCrafter = true
+	#.
+	#机械工匠制作烟花火箭时允许使用的最大原料数量。
+	#范围：> 1
+	maxFireworkIngredientsInCrafter = 9
+	#.
+	#允许机械锯处理石材切割配方。
+	allowStonecuttingOnSaw = true
+	#.
+	#允许喷口与 Tinkers' Construct 的铸造台和盆互动。
+	allowCastingBySpout = true
+	#.
+	#在 JEI 中显示原版的木材剥皮配方。
+	displayLogStrippingRecipes = true
+	#.
+	#在光源摧毁后，Chromatic Compound 转换为 Refined Radiance 所需的光源数量。
+	#范围：> 1
+	lightSourceCountForRefinedRadiance = 10
+	#.
+	#允许标准的世界内 Refined Radiance 配方。
+	enableRefinedRadianceRecipe = true
+	#.
+	#允许标准的世界内 Shadow Steel 配方。
+	enableShadowSteelRecipe = true
+
+#.
+#Create 的动力机制参数和能力
+[kinetics]
+	#.
+	#.
+	#禁用压力机制。
+	disableStress = false
+	#.
+	#机械皮带的最大长度。
+	#范围：> 5
+	maxBeltLength = 20
+	#.
+	#链式输送机连接的最大长度。
+	#范围：> 5
+	maxChainConveyorLength = 32
+	#.
+	#链式输送机最多可以有多少个连接点。
+	#范围：> 1
+	maxChainConveyorConnections = 4
+	#.
+	#活动的破碎轮造成的伤害。
+	#范围：> 0
+	crushingDamage = 4
+	#.
+	#[单位：每分钟转速]
+	#允许的最大旋转速度（以每分钟转速计）。
+	#范围：> 64
+	maxRotationSpeed = 256
+	#.
+	#选择哪些怪物在被攻击时应忽略投放器。
+	#允许值：ALL, CREEPERS, NONE
+	ignoreDeployerAttacks = "CREEPERS"
+	#.
+	#动力块检查源是否有效的游戏刻数。
+	#范围：> 5
+	kineticValidationFrequency = 60
+	#.
+	#转动曲柄时计算速度消耗的乘数。
+	#范围：0.0 ~ 1.0
+	crankHungerMultiplier = 0.009999999776482582
+	#.
+	#风车成功组装所需的最小风帆数量。
+	#范围：> 0
+	minimumWindmillSails = 8
+	#.
+	#每增加 1 转速，风车需要多少个风帆。
+	#范围：> 1
+	windmillSailsPerRPM = 8
+	#.
+	#加权弹射器可以弹射的最大距离。
+	#范围：> 0
+	maxEjectorDistance = 32
+	#.
+	#弹射器扫描下一个物品块的时间间隔。
+	#范围：> 10
+	ejectorScanInterval = 120
+
+	#.
+	#封闭风扇
+	[kinetics.encasedFan]
+		#.
+		#风扇推动实体的最大距离。
+		#范围：> 5
+		fanPushDistance = 20
+		#.
+		#风扇拉动实体的最大距离。
+		#范围：> 5
+		fanPullDistance = 20
+		#.
+		#风扇检查空气流通是否被阻塞的刻数。
+		#范围：> 10
+		fanBlockCheckRate = 30
+		#.
+		#[单位：每分钟转速]
+		#风扇达到最大性能的旋转速度（以每分钟转速计）。
+		#范围：> 64
+		fanRotationArgmax = 256
+		#.
+		#风扇基于处理配方生效所需的刻数。
+		#范围：> 0
+		fanProcessingTime = 150
+
+	#.
+	#移动装置
+	[kinetics.contraptions]
+		#.
+		#活塞、轴承等可以推动的最大块数。
+		#范围：> 1
+		maxBlocksMoved = 2048
+		#.
+		#机架附件的最大范围。
+		#范围：> 1
+		maxChassisRange = 16
+		#.
+		#机械活塞的最大延伸杆数。
+		#范围：> 1
+		maxPistonPoles = 64
+		#.
+		#绳索滑轮的最大长度。
+		#范围：> 1
+		maxRopeLength = 384
+		#.
+		#两个联动矿车之间的最大距离。
+		#范围：> 1
+		maxCartCouplingLength = 32
+		#.
+		#使用机械辊压填充的最大深度。
+		#范围：> 1
+		rollerFillDepth = 12
+		#.
+		#在生存模式下是否可以捡起矿车装置。
+		survivalContraptionPickup = true
+		#.
+		#配置如何移动产卵器、紫水晶、下界黑曜石等。
+		movableSpawners = "NO_PICKUP"
+		#.
+		#配置如何移动紫水晶。
+		amethystMovement = "NO_PICKUP"
+		#.
+		#配置如何移动黑曜石。
+		movableObsidian = "UNMOVABLE"
+		#.
+		#配置如何移动强化深板岩。
+		movableReinforcedDeepslate = "UNMOVABLE"
+		#.
+		#是否应将被矿车或收获器收获的物品放入其安装的存储中。
+		moveItemsToStorage = true
+		#.
+		#收获器是否应打破未完全成长的作物。
+		harvestPartiallyGrown = false
+		#.
+		#收获器是否应在收获后重新种植作物。
+		harvesterReplants = true
+		#.
+		#矿车装置是否可以放入容器物品中。
+		minecartContraptionInContainers = false
+		#.
+		#稳定轴承是否在非旋转的装置上也会创建一个分离的实体。
+		stabiliseStableContraptions = false
+		#.
+		#玩家的碰撞盒是否应与装置的碰撞盒同步。
+		syncPlayerPickupHitboxWithContraptionHitbox = false
+
+	#.
+	#配置速度/容量的要求和指示器
+	[kinetics.stats]
+		#.
+		#[单位：每分钟转速]
+		#旋转速度达到中等的最小旋转速度。
+		#范围：0.0 ~ 4096.0
+		mediumSpeed = 30.0
+		#.
+		#[单位：每分钟转速]
+		#旋转速度达到快速的最小旋转速度。
+		#范围：0.0 ~ 65535.0
+		fastSpeed = 100.0
+		#.
+		#[单位：压力单位]
+		#中等压力影响的最小值。
+		#范围：0.0 ~ 4096.0
+		mediumStressImpact = 4.0
+		#.
+		#[单位：压力单位]
+		#高压力影响的最小值。
+		#范围：0.0 ~ 65535.0
+		highStressImpact = 8.0
+		#.
+		#[单位：压力单位]
+		#中等容量的最小值。
+		#范围：0.0 ~ 4096.0
+		mediumCapacity = 256.0
+		#.
+		#[单位：压力单位]
+		#高容量的最小值。
+		#范围：0.0 ~ 65535.0
+		highCapacity = 1024.0
+
+	[kinetics.stressValues]
+
+		#.
+		#微调各个部件的动力统计数据
+		[kinetics.stressValues.v2]
+
+			#.
+			#.
+			#[单位：压力单位]
+			#配置机械部件的单独压力影响。注意，每增加一次速度，这个成本会加倍。
+			[kinetics.stressValues.v2.impact]
+				brass_encased_shaft = 0.0
+				turntable = 4.0
+				clutch = 0.0
+				mechanical_mixer = 4.0
+				gearbox = 0.0
+				mechanical_bearing = 4.0
+				copper_backtank = 4.0
+				hose_pulley = 4.0
+				display_board = 0.0
+				crushing_wheel = 8.0
+				adjustable_chain_gearshift = 0.0
+				millstone = 4.0
+				rotation_speed_controller = 0.0
+				sticky_mechanical_piston = 4.0
+				mechanical_crafter = 2.0
+				deployer = 4.0
+				elevator_pulley = 4.0
+				stressometer = 0.0
+				cogwheel = 0.0
+				encased_chain_drive = 0.0
+				belt = 0.0
+				brass_encased_large_cogwheel = 0.0
+				weighted_ejector = 2.0
+				chain_conveyor = 1.0
+				mechanical_saw = 4.0
+				flywheel = 0.0
+				mechanical_piston = 4.0
+				speedometer = 0.0
+				brass_encased_cogwheel = 0.0
+				clockwork_bearing = 4.0
+				mechanical_press = 8.0
+				mechanical_drill = 4.0
+				andesite_encased_shaft = 0.0
+				netherite_backtank = 4.0
+				mechanical_arm = 2.0
+				sequenced_gearshift = 0.0
+				andesite_encased_large_cogwheel = 0.0
+				shaft = 0.0
+				cuckoo_clock = 1.0
+				gearshift = 0.0
+				rope_pulley = 4.0
+				andesite_encased_cogwheel = 0.0
+				large_cogwheel = 0.0
+				encased_fan = 2.0
+				mysterious_cuckoo_clock = 1.0
+				gantry_shaft = 0.0
+				mechanical_pump = 4.0
+
+			#.
+			#[单位：压力单位]
+			#配置源可以承受的最大压力。
+			[kinetics.stressValues.v2.capacity]
+				steam_engine = 1024.0
+				water_wheel = 32.0
+				copper_valve_handle = 8.0
+				hand_crank = 8.0
+				creative_motor = 16384.0
+				large_water_wheel = 128.0
+				windmill_bearing = 512.0
+
+#.
+#Create的液体操作工具
+[fluids]
+	#.
+	#.
+	#[单位：桶]
+	#液体槽每个方块的容量。
+	#范围：> 1
+	fluidTankCapacity = 8
+	#.
+	#[单位：方块]
+	#液体槽的最大高度。
+	#范围：> 1
+	fluidTankMaxHeight = 32
+	#.
+	#[单位：方块]
+	#机械泵推拉液体的最大距离。
+	#范围：> 1
+	mechanicalPumpRange = 16
+	#.
+	#[单位：方块]
+	#软管滑轮从液体源吸取的最大距离。
+	#范围：> 1
+	hosePulleyRange = 128
+	#.
+	#[单位：方块]
+	#软管滑轮需要找到的最小液体块数，才能被视为无限源。
+	#范围：> -1
+	hosePulleyBlockThreshold = 2147483647
+	#.
+	#软管滑轮是否应继续填充超过阈值的源。
+	fillInfinite = false
+	#.
+	#配置哪些液体可以被无穷无尽地抽取。
+	#允许值：ALLOW_ALL, DENY_ALL, ALLOW_BY_TAG, DENY_BY_TAG
+	bottomlessFluidMode = "ALLOW_ALL"
+	#.
+	#软管滑轮是否允许放置液体源。
+	fluidFillPlaceFluidSourceBlocks = true
+	#.
+	#开放式管道是否允许放置液体源。
+	pipesPlaceFluidSourceBlocks = true
+
+#.
+#物流组件的微调
+[logistics]
+	#.
+	#.
+	#漏斗在没有红石激活时等待的刻数。
+	#范围：> 1
+	defaultExtractionTimer = 8
+	#.
+	#便携存储接口等待的刻数，直到让装置继续移动。
+	#范围：> 1
+	psiTimeout = 60
+	#.
+	#机械臂的最大工作范围。
+	#范围：> 1
+	mechanicalArmRange = 5
+	#.
+	#包裹端口的最大距离。
+	#范围：> 1
+	packagePortRange = 5
+	#.
+	#红石链路连接的最大可能范围。
+	#范围：> 1
+	linkRange = 256
+	#.
+	#显示链接与其目标之间的最大距离。
+	#范围：> 1
+	displayLinkRange = 64
+	#.
+	#金库每个方块的最大堆叠数量。
+	#范围：1 ~ 2048
+	vaultCapacity = 20
+	#.
+	#链式输送机每次可运输的最大包裹数。
+	#范围：> 1
+	chainConveyorCapacity = 20
+	#.
+	#黄铜隧道在每次分配之间等待的刻数。
+	#范围：1 ~ 10
+	brassTunnelTimer = 10
+	#.
+	#工厂仪表每次请求之间等待的刻数。
+	#范围：> 5
+	factoryGaugeTimer = 100
+	#.
+	#是否敌对生物走近座椅时开始骑乘。
+	seatHostileMobs = true
+
+#.
+#与Schematic工具相关的所有设置
+[schematics]
+	#.
+	#.
+	#是否应在创意模式下直接放置Schematic时替换世界中的方块为空气。
+	creativePrintIncludesAir = false
+	#.
+	#玩家可以上传的最大Schematic数量，超出后将覆盖之前的。
+	#范围：> 1
+	maxSchematics = 10
+	#.
+	#[单位：千字节]
+	#允许上传的Schematic的最大文件大小。
+	#范围：> 16
+	maxTotalSchematicSize = 256
+	#.
+	#[单位：字节]
+	#上传Schematic时每个包的最大大小。
+	#范围：256 ~ 32767
+	maxSchematicPacketSize = 1024
+	#.
+	#上传Schematic时，若超过指定的空闲时间没有接收到新数据包，则中断上传过程。
+	#范围：> 100
+	schematicIdleTimeout = 600
+
+	#.
+	#Schematic炮
+	[schematics.schematicannon]
+		#.
+		#Schematic炮每次发射之间的刻数，值越高则发射越慢。
+		#范围：> 1
+		schematicannonDelay = 10
+		#.
+		#每次提供的火药可以打印的Schematic的最大方块数。
+		#范围：> 1
+		schematicannonShotsPerGunpowder = 400
+
+#.
+#Create添加的装备和工具
+[equipment]
+	#.
+	#.
+	#对称魔杖触发的最大距离。
+	#范围：> 10
+	maxSymmetryWandRange = 50
+	#.
+	#Create的放置助手与交互点之间的最大距离。
+	#范围：> 3
+	placementAssistRange = 12
+	#.
+	#工具箱与玩家背包交互的最大距离。
+	#范围：> 1
+	toolboxRange = 10
+	#.
+	#背包箱可以存储的空气最大体积，表示水下呼吸的秒数。
+	#范围：> 1
+	airInBacktank = 900
+	#.
+	#每次背包箱的容量附魔所增加的空气体积。
+	#范围：> 1
+	enchantedBacktankCapacity = 300
+	#.
+	#每个已充满的铜背包箱提供的免费扩展握把动作数量。设置为0会让扩展握把不可破坏。
+	#范围：> 0
+	maxExtendoGripActions = 1000
+	#.
+	#每个已充满的铜背包箱提供的免费土豆炮射击次数。设置为0会让土豆炮不可破坏。
+	#范围：> 0
+	maxPotatoCannonShots = 200
+
+#.
+#Create的内置铁路系统
+[trains]
+	#.
+	#.
+	#是否移动的火车会伤害碰撞到的敌对生物和玩家。
+	trainsCauseDamage = true
+	#.
+	#一次性放置的最大轨道长度。
+	#范围：16 ~ 128
+	maxTrackPlacementLength = 32
+	#.
+	#火车站组装轨道的最大长度。
+	#范围：> 5
+	maxAssemblyLength = 128
+	#.
+	#最大组装的火车车厢数量。
+	#范围：> 1
+	maxBogeyCount = 20
+	#.
+	#手动控制的火车相对于计划中的火车的相对速度。
+	#范围：0.0 ~ 3.4028234663852886E38
+	manualTrainSpeedModifier = 0.75
+
+	#.
+	#标准火车
+	[trains.trainStats]
+		#.
+		#[单位：方块/秒]
+		#任何组装火车的最大速度。
+		#范围：0.0 ~ 3.4028234663852886E38
+		trainTopSpeed = 28.0
+		#.
+		#[单位：方块/秒]
+		#火车转弯时的最大速度。
+		#范围：0.0 ~ 3.4028234663852886E38
+		trainTurningTopSpeed = 14.0
+		#.
+		#[单位：方块/秒²]
+		#任何组装火车的加速度。
+		#范围：0.0 ~ 3.4028234663852886E38
+		trainAcceleration = 3.0
+
+	#.
+	#动力火车
+	[trains.poweredTrainStats]
+		#.
+		#[单位：方块/秒]
+		#动力火车的最大速度。
+		#范围：0.0 ~ 3.4028234663852886E38
+		poweredTrainTopSpeed = 40.0
+		#.
+		#[单位：方块/秒]
+		#动力火车转弯时的最大速度。
+		#范围：0.0 ~ 3.4028234663852886E38
+		poweredTrainTurningTopSpeed = 20.0
+		#.
+		#[单位：方块/秒²]
+		#动力火车的加速度。
+		#范围：0.0 ~ 3.4028234663852886E38
+		poweredTrainAcceleration = 3.0

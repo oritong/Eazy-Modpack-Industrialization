@@ -1,0 +1,5 @@
+//加压处理（不是真空
+ServerEvents.recipes(e=>{
+    e.recipes.vintageimprovements.pressurizing(['gtceu:lapotron_gem'], ['gtceu:lapotron_dust', 'gtceu:lapotron_dust', 'gtceu:lapotron_dust', 'gtceu:lapotron_dust', 'gtceu:lapotron_dust', 'gtceu:lapotron_dust', 'gtceu:lapotron_dust', 'gtceu:lapotron_dust', 'gtceu:lapotron_dust', 'gtceu:lapotron_dust', 'gtceu:lapotron_dust', 'gtceu:lapotron_dust', 'gtceu:lapotron_dust', 'gtceu:lapotron_dust', 'gtceu:lapotron_dust', Fluid.of('minecraft:water', 1000)], 1200).secondaryFluidInput(0)
+    e.recipes.vintageimprovements.pressurizing(['gtceu:lapotron_gem'], ['gtceu:lapotron_dust', 'gtceu:lapotron_dust', 'gtceu:lapotron_dust', 'gtceu:lapotron_dust', 'gtceu:lapotron_dust', 'gtceu:lapotron_dust', 'gtceu:lapotron_dust', 'gtceu:lapotron_dust', 'gtceu:lapotron_dust', 'gtceu:lapotron_dust', 'gtceu:lapotron_dust', 'gtceu:lapotron_dust', 'gtceu:lapotron_dust', 'gtceu:lapotron_dust', 'gtceu:lapotron_dust', Fluid.of('gtceu:distilled_water', 1000)], 600).secondaryFluidInput(0)
+})

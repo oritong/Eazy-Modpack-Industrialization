@@ -18,8 +18,8 @@
 			disable_toast: true
 			id: "02A1A8686BD8B2D0"
 			linked_quest: "69294CB7A4E9DF9D"
-			x: 7.0d
-			y: 3.0d
+			x: -1.5d
+			y: 3.5d
 		}
 	]
 	quests: [
@@ -66,6 +66,56 @@
 			}]
 			x: 3.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["4936F2C4B1F46EA6"]
+			id: "624FB69A77E546F9"
+			tasks: [{
+				id: "19A15E14A8004D8B"
+				item: "gtceu:brass_ingot"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["36264C177B9318C6"]
+			id: "4936F2C4B1F46EA6"
+			tasks: [{
+				id: "08174141F8487738"
+				item: "gtceu:brass_dust"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["624FB69A77E546F9"]
+			id: "2499007748C3D8D0"
+			tasks: [{
+				id: "4B72EB2B01737B94"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["69294CB7A4E9DF9D"]
+			description: [
+				"为了考虑&a平衡性&r，在这个包里它被&c重做&r了一下！"
+				"现在它可以&b无限制&r的抽取*&6所有&r*液体！"
+				"但是你需要&d2147483647桶&r液体才可以！"
+			]
+			id: "63714666B4C34567"
+			subtitle: "真的有用吗"
+			tasks: [{
+				id: "5D59D28D0BF5FA35"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
 		}
 	]
 	title: "[&aCreate&r]机械动力"

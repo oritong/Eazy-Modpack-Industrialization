@@ -3,10 +3,17 @@
     "screenWhitelist": [
       "net.mehvahdjukaar.supplementaries.client.screens.TextHolderEditScreen",
       "net.minecraft.client.gui.screens.inventory.BookEditScreen",
-      "net.minecraft.client.gui.screens.inventory.AbstractSignEditScreen"
+      "net.minecraft.client.gui.screens.inventory.AbstractSignEditScreen",
+      "dev.ftb.mods.ftblibrary.ui.ScreenWrapper"
     ],
     "enableScreenRecovering": false,
-    "recoveredScreens": [],
+    "recoveredScreens": [
+      "net.minecraftforge.client.gui.ModListScreen",
+      "net.minecraft.client.gui.screens.PauseScreen",
+      "net.minecraft.client.gui.screens.inventory.InventoryScreen",
+      "net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen",
+      "dev.ftb.mods.ftblibrary.ui.ScreenWrapper"
+    ],
     "commandInputMode": "IM_ENG_STATE"
   },
   "advanceSettings": {

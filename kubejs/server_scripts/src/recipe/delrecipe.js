@@ -21,7 +21,11 @@ let banthings = [
     'minecraft:golden_carrot',
     'ars_nouveau:imbuement_chamber',
     'cookingforblockheads:sink',
-    'botania:pure_daisy'
+    'botania:pure_daisy',
+    'minecraft:blast_furnace',
+    'create:andesite_casing',
+    'create:copper_casing',
+    'create:brass_casing'
 ]
 let banlists = [
     'ars_nouveau:imbuement_amethyst',

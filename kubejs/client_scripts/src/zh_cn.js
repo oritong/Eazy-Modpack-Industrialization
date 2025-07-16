@@ -30,7 +30,7 @@ let mbd2_key_zh_cn = [
     ['i_fluid_input', 'I级输入仓'],
     ['i_fluid_output', 'I级输出仓'],
     ['i_item_input', 'I级输入总线'],
-    ['i_item_output', 'I级输出总线'],
+    ['i_item_output', 'I级输出总线']
 ]
 ClientEvents.lang('zh_cn', e => {
     key_zh_cn.forEach(([key, value]) => {

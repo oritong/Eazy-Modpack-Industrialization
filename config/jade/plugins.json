@@ -64,6 +64,9 @@
     "goggles.detailed": true,
     "placard": true
   },
+  "mekanismcardboardtooltip": {
+    "cardboard_box": true
+  },
   "avaritia": {
     "extreme_smithing": true,
     "crafting_table": true,

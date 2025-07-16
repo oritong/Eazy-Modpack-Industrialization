@@ -188,8 +188,23 @@ ServerEvents.recipes(e=>{
     ], {
     A: 'gtceu:firebrick'
     }).keepIngredient('forge:tools')
-
-
+    e.shaped('2x kubejs:uncooked_rubber_dust', [
+    'AAA',
+    'AAA',
+    'BBA'
+    ], {
+    A: 'gtceu:raw_rubber_dust',
+    B: 'gtceu:sulfur_dust'
+    }).keepIngredient('forge:tools')
+e.shaped('minecraft:blast_furnace', [
+    'AAA',
+    'ABA',
+    'CCC'
+], {
+    A: 'mekanism:ingot_steel',
+    B: 'minecraft:furnace',
+    C: 'minecraft:smooth_stone'
+}).keepIngredient('forge:tools')
 
 
 
