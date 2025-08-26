@@ -1,0 +1,23 @@
+[
+  {
+    "matchItems": [
+      "gtceu:basalt_lapis_ore",
+      "gtceu:blackstone_lapis_ore",
+      "gtceu:deepslate_lapis_ore",
+      "gtceu:diorite_lapis_ore",
+      "gtceu:endstone_lapis_ore",
+      "gtceu:granite_lapis_ore",
+      "gtceu:gravel_lapis_ore",
+      "gtceu:andesite_lapis_ore",
+      "gtceu:marble_lapis_ore",
+      "gtceu:netherrack_lapis_ore",
+      "gtceu:red_granite_lapis_ore",
+      "gtceu:red_sand_lapis_ore",
+      "gtceu:sand_lapis_ore",
+      "gtceu:tuff_lapis_ore",
+      "minecraft:deepslate_lapis_ore",
+      "minecraft:lapis_ore"
+    ],
+    "resultItems": "minecraft:air"
+  }
+]

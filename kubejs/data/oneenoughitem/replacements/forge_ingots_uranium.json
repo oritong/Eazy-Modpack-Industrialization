@@ -1,0 +1,8 @@
+[
+  {
+    "matchItems": [
+      "mekanism:ingot_uranium"
+    ],
+    "resultItems": "gtceu:uranium_ingot"
+  }
+]

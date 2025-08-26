@@ -1,0 +1,23 @@
+[
+  {
+    "matchItems": [
+      "gtceu:basalt_tin_ore",
+      "gtceu:blackstone_tin_ore",
+      "gtceu:deepslate_tin_ore",
+      "gtceu:diorite_tin_ore",
+      "gtceu:endstone_tin_ore",
+      "gtceu:granite_tin_ore",
+      "gtceu:gravel_tin_ore",
+      "gtceu:marble_tin_ore",
+      "gtceu:netherrack_tin_ore",
+      "gtceu:red_granite_tin_ore",
+      "gtceu:red_sand_tin_ore",
+      "gtceu:sand_tin_ore",
+      "gtceu:andesite_tin_ore",
+      "gtceu:tuff_tin_ore",
+      "mekanism:deepslate_tin_ore",
+      "mekanism:tin_ore"
+    ],
+    "resultItems": "minecraft:air"
+  }
+]

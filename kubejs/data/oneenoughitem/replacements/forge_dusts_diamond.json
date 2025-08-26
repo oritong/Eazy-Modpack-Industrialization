@@ -1,0 +1,9 @@
+[
+  {
+    "matchItems": [
+      "mekanism:dust_diamond",
+      "createaddition:diamond_grit"
+    ],
+    "resultItems": "gtceu:diamond_dust"
+  }
+]

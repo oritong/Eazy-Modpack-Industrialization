@@ -1,4 +1,7 @@
 let key_zh_cn = [
+    ['mbd2.electrolytic', '电解'],
+    ['mbd2.centrifuge', '离心'],
+    ['item_group.ori.tab_money', '藏钱木盒——通宝']
 ]
 let item_js_key_zh_cn = [
     ["black_knife.desc", "§ka§rBlack§ka§rKnife§ka§r-§ka§rToby§ka§rFox§ka"],
@@ -17,7 +20,12 @@ let item_gt_key_zh_cn = [
     ['ethyl_alpha_cyanoacetate', 'α–氰基丙烯酸乙酯'],
     ['ethyl_cyanoacrylate', '氰基乙酸乙酯'],
     ['glacial_acetic_acid', '冰醋酸'],
-    ['chloroacetic_acid', '氯乙酸']
+    ['chloroacetic_acid', '氯乙酸'],
+    ['platinum_slag', '铂渣'],
+    ['fluorowax_tin_niobium_nanocomposite', '蜡氟锡铌'],
+    ['plutonium_einsteinium_cored_sodium_thermalm_ultilayer_system_with_paraffin_shielding', '锿钚蜡钠'],
+    ['wheat_flour_with_water', '小麦粉水浆液混合物'],
+    ['high_fructose_syrup', '果葡糖浆']
 ]
 let fluid_js_zh_cn = [
     ['creosote', '杂酚油']

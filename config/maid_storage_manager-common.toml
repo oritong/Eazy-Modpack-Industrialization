@@ -69,6 +69,8 @@ debug_msg = false
 	#How maid will throw Item.FINALLY_POS will try make the item stop at the position. GO_THROUGH will try to make item go through the target position. FIXED will always use the vector of length 0.6
 	#Allowed Values: FINALLY_POS, GO_THROUGH, FIXED
 	throw_item_vector = "FINALLY_POS"
+	#No showing bubbles for sub tasks
+	no_bubble_for_sub_task = false
 
 [render]
 	#Virtual Item Frame's render method allow access/no access/filter.
@@ -123,4 +125,6 @@ debug_msg = false
 		#Crafting generator algorithm to use.
 		#Allowed Values: RELEVANCE, RELEVANCE_THREADED
 		algorithm = "RELEVANCE_THREADED"
+		#Only generate recipe with nearest block to maid.
+		nearest_only = false
 

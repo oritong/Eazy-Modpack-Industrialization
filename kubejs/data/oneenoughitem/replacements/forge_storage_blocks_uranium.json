@@ -1,0 +1,8 @@
+[
+  {
+    "matchItems": [
+      "gtceu:uranium_block"
+    ],
+    "resultItems": "mekanism:block_uranium"
+  }
+]

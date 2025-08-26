@@ -12,14 +12,26 @@
 			id: "2F5979BE40A92F37"
 			linked_quest: "2D45662BB22D8B63"
 			x: -1.5d
-			y: -1.0d
+			y: -3.0d
 		}
 		{
 			disable_toast: true
 			id: "02A1A8686BD8B2D0"
 			linked_quest: "69294CB7A4E9DF9D"
 			x: -1.5d
-			y: 3.5d
+			y: 4.5d
+		}
+		{
+			id: "18C8E772E0268F96"
+			linked_quest: "01114FA23BD055C1"
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			id: "4D2F990E25061C45"
+			linked_quest: "6E1C90FCE6B7013A"
+			x: -5.5d
+			y: -0.5d
 		}
 	]
 	quests: [
@@ -32,7 +44,7 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -1.5d
+			y: -3.5d
 		}
 		{
 			dependencies: ["2D45662BB22D8B63"]
@@ -43,18 +55,18 @@
 				type: "item"
 			}]
 			x: 1.0d
-			y: -0.5d
+			y: -2.5d
 		}
 		{
-			dependencies: ["2D45662BB22D8B63"]
+			dependencies: ["0354C6F460843541"]
 			id: "110A6A49267FFF5F"
 			tasks: [{
 				id: "228FFA9DFEB0F77F"
 				item: "create:mechanical_press"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.5d
+			x: 2.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2D45662BB22D8B63"]
@@ -64,8 +76,8 @@
 				item: "create:basin"
 				type: "item"
 			}]
-			x: 3.5d
-			y: -1.0d
+			x: 2.0d
+			y: -3.0d
 		}
 		{
 			dependencies: ["4936F2C4B1F46EA6"]
@@ -76,7 +88,7 @@
 				type: "item"
 			}]
 			x: -3.5d
-			y: 7.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["36264C177B9318C6"]
@@ -87,7 +99,7 @@
 				type: "item"
 			}]
 			x: -5.5d
-			y: 7.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["624FB69A77E546F9"]
@@ -98,7 +110,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: 7.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["69294CB7A4E9DF9D"]
@@ -106,6 +118,7 @@
 				"为了考虑&a平衡性&r，在这个包里它被&c重做&r了一下！"
 				"现在它可以&b无限制&r的抽取*&6所有&r*液体！"
 				"但是你需要&d2147483647桶&r液体才可以！"
+				"&m&0其实搞不出来，放弃吧"
 			]
 			id: "63714666B4C34567"
 			subtitle: "真的有用吗"
@@ -114,8 +127,142 @@
 				item: "create:hose_pulley"
 				type: "item"
 			}]
-			x: -1.5d
-			y: 1.5d
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["01114FA23BD055C1"]
+			id: "37FE2982F1DC4CCE"
+			tasks: [{
+				id: "3AA92443E0B27274"
+				item: "gtceu:resin_circuit_board"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["37FE2982F1DC4CCE"]
+			id: "366E639D3AA0DEAC"
+			subtitle: "限制你的制作工艺"
+			tasks: [{
+				id: "43A8F3C4C4903D2E"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "and(item_tag(ori:circuit)not(item(gtceu:resin_circuit_board)))"
+					}
+				}
+				title: "配方限制器"
+				type: "item"
+			}]
+			title: "配方限制器"
+			x: -3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["69294CB7A4E9DF9D"]
+			description: ["你真想用我也说不了什么"]
+			id: "2D7F91B2D2325704"
+			rewards: [{
+				id: "6B46D6E23B512462"
+				item: "kubejs:originium_ingot"
+				type: "item"
+			}]
+			subtitle: "应该是这个包里最垃圾的管道"
+			tasks: [
+				{
+					id: "5B7DA584A30C4AD4"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "15C49D93A6D07BF1"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+			]
+			title: "流体运输"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["215B13997A9230F4"]
+			id: "2DC0CD3B57D65F29"
+			tasks: [{
+				id: "3DBD271DCA0E6AF5"
+				item: "createdieselgenerators:basin_lid"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2D45662BB22D8B63"]
+			id: "0354C6F460843541"
+			tasks: [{
+				id: "23A0B6049D3440A9"
+				item: "vintageimprovements:curving_press"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2D45662BB22D8B63"]
+			id: "116CB7CC3392B006"
+			tasks: [{
+				id: "4DB562129D3C7F35"
+				item: "create:brass_hand"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["116CB7CC3392B006"]
+			id: "7350086C9E9599C5"
+			tasks: [{
+				id: "6B91CBD6378F0446"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6E1C90FCE6B7013A"]
+			id: "2DBCE9BC0BDD5EBF"
+			tasks: [{
+				id: "48342095C7A1DA6A"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["69294CB7A4E9DF9D"]
+			id: "185423746FBB7EC2"
+			tasks: [{
+				id: "486C43E0AEEC2EC5"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["69294CB7A4E9DF9D"]
+			id: "60339C1E23771C46"
+			tasks: [{
+				id: "1C4832DAF43B2B02"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
 		}
 	]
 	title: "[&aCreate&r]机械动力"

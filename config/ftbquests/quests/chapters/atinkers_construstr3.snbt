@@ -8,5 +8,9 @@
 	order_index: 10
 	quest_links: [ ]
 	quests: [ ]
+	subtitle: [
+		"已至入髓<&c申铸&r>时"
+		"敬刻九铸金熔火 入时者得见其妙"
+	]
 	title: "[&aTinkers' Construst&r]匠魂"
 }

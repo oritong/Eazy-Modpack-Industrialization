@@ -1,0 +1,21 @@
+[
+  {
+    "matchItems": [
+      "gtceu:basalt_sulfur_ore",
+      "gtceu:blackstone_sulfur_ore",
+      "gtceu:deepslate_sulfur_ore",
+      "gtceu:diorite_sulfur_ore",
+      "gtceu:endstone_sulfur_ore",
+      "gtceu:granite_sulfur_ore",
+      "gtceu:gravel_sulfur_ore",
+      "gtceu:marble_sulfur_ore",
+      "gtceu:netherrack_sulfur_ore",
+      "gtceu:red_granite_sulfur_ore",
+      "gtceu:red_sand_sulfur_ore",
+      "gtceu:sand_sulfur_ore",
+      "gtceu:andesite_sulfur_ore",
+      "gtceu:tuff_sulfur_ore"
+    ],
+    "resultItems": "minecraft:air"
+  }
+]

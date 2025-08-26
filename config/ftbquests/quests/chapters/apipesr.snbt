@@ -6,7 +6,50 @@
 	icon: "buildinggadgets2:gadget_building"
 	id: "086C29D10E82FFFD"
 	order_index: 8
-	quest_links: [ ]
-	quests: [ ]
+	quest_links: [{
+		id: "35AF9B6CBB28251A"
+		linked_quest: "6E1C90FCE6B7013A"
+		x: 0.0d
+		y: -9.5d
+	}]
+	quests: [
+		{
+			dependencies: ["6E1C90FCE6B7013A"]
+			id: "03E76CC00D2752AB"
+			tasks: [{
+				id: "60A080CE4D32F071"
+				item: "curvy_pipes:small_energy_pipe"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6E1C90FCE6B7013A"]
+			id: "45D5150A0D6ABE46"
+			tasks: [{
+				id: "177E0700BF857751"
+				item: "curvy_pipes:small_fluid_pipe"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6E1C90FCE6B7013A"]
+			id: "2F870A7FC86D6A3D"
+			tasks: [{
+				id: "0D8C086A1AC73A6B"
+				item: "curvy_pipes:small_item_pipe"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+	]
+	subtitle: [
+		"已至入髓<&c未建&r>时"
+		"敬刻八筑巧藏珍 入时者流连难返"
+	]
 	title: "[&3Pipes/Storage/Building&r]管道/存储/建筑模组"
 }

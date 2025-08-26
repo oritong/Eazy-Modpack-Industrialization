@@ -1,8 +1,8 @@
 //被替换 替换
 let rpl_all = [
     ['create:andesite_alloy', 'gtceu:wrought_iron_ingot'],
-    ['pneumaticcraft:ingot_iron_compressed', 'gtceu:wrought_iron_ingot'],
-    ['#forge:plates/iron', 'gtceu:iron_plate']
+    ['farmersdelight:wheat_dough', 'gtceu:dough']
+    //['pneumaticcraft:ingot_iron_compressed', 'gtceu:wrought_iron_ingot'],
 ]
 
 ServerEvents.recipes(e => {
@@ -12,6 +12,8 @@ ServerEvents.recipes(e => {
     })
     e.replaceInput({mod: 'botania'}, '#botania:seed_apothecary_reagent', 'ars_nouveau:magebloom_crop')
     e.replaceInput({id: 'ars_nouveau:magebloom_crop'}, '#forge:seeds', 'minecraft:wheat_seeds')
+    e.replaceInput({id: 'botania:mana_infusion/manasteel'}, 'iron_ingot', 'mekanism:ingot_steel')
+    e.replaceInput({}, 'youkaishomecoming:ice_cube', 'kitchenkarrot:ice_cubes')
 })
 
 /*

@@ -64,6 +64,9 @@
     "goggles.detailed": true,
     "placard": true
   },
+  "entangled": {
+    "entangled_block_component": true
+  },
   "mekanismcardboardtooltip": {
     "cardboard_box": true
   },
@@ -101,6 +104,9 @@
     "hazard_cleaner_provider": true,
     "cable_info": true,
     "parallel_info": true
+  },
+  "maid_storage_manager": {
+    "virtual_frame": true
   },
   "createsifter": {
     "sifter_data": true

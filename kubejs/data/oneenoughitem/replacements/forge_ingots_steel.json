@@ -1,0 +1,9 @@
+[
+  {
+    "matchItems": [
+      "tconstruct:steel_ingot",
+      "mekanism:ingot_steel"
+    ],
+    "resultItems": "gtceu:steel_ingot"
+  }
+]

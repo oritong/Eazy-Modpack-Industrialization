@@ -1,0 +1,8 @@
+[
+  {
+    "matchItems": [
+      "create:copper_sheet"
+    ],
+    "resultItems": "gtceu:copper_plate"
+  }
+]

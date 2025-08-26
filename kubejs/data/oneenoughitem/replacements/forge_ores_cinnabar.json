@@ -1,0 +1,21 @@
+[
+  {
+    "matchItems": [
+      "gtceu:basalt_cinnabar_ore",
+      "gtceu:blackstone_cinnabar_ore",
+      "gtceu:andesite_cinnabar_ore",
+      "gtceu:deepslate_cinnabar_ore",
+      "gtceu:diorite_cinnabar_ore",
+      "gtceu:endstone_cinnabar_ore",
+      "gtceu:granite_cinnabar_ore",
+      "gtceu:gravel_cinnabar_ore",
+      "gtceu:marble_cinnabar_ore",
+      "gtceu:netherrack_cinnabar_ore",
+      "gtceu:red_granite_cinnabar_ore",
+      "gtceu:red_sand_cinnabar_ore",
+      "gtceu:sand_cinnabar_ore",
+      "gtceu:tuff_cinnabar_ore"
+    ],
+    "resultItems": "minecraft:air"
+  }
+]

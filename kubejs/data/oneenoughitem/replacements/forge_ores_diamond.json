@@ -1,0 +1,23 @@
+[
+  {
+    "matchItems": [
+      "gtceu:basalt_diamond_ore",
+      "gtceu:blackstone_diamond_ore",
+      "gtceu:deepslate_diamond_ore",
+      "gtceu:andesite_diamond_ore",
+      "gtceu:diorite_diamond_ore",
+      "gtceu:endstone_diamond_ore",
+      "gtceu:granite_diamond_ore",
+      "gtceu:gravel_diamond_ore",
+      "gtceu:marble_diamond_ore",
+      "gtceu:netherrack_diamond_ore",
+      "gtceu:red_granite_diamond_ore",
+      "gtceu:red_sand_diamond_ore",
+      "gtceu:sand_diamond_ore",
+      "gtceu:tuff_diamond_ore",
+      "minecraft:deepslate_diamond_ore",
+      "minecraft:diamond_ore"
+    ],
+    "resultItems": "minecraft:air"
+  }
+]

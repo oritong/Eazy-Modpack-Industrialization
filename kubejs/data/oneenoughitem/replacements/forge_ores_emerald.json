@@ -1,0 +1,23 @@
+[
+  {
+    "matchItems": [
+      "gtceu:basalt_emerald_ore",
+      "gtceu:blackstone_emerald_ore",
+      "gtceu:deepslate_emerald_ore",
+      "gtceu:diorite_emerald_ore",
+      "gtceu:andesite_emerald_ore",
+      "gtceu:endstone_emerald_ore",
+      "gtceu:granite_emerald_ore",
+      "gtceu:gravel_emerald_ore",
+      "gtceu:marble_emerald_ore",
+      "gtceu:netherrack_emerald_ore",
+      "gtceu:red_granite_emerald_ore",
+      "gtceu:red_sand_emerald_ore",
+      "gtceu:sand_emerald_ore",
+      "gtceu:tuff_emerald_ore",
+      "minecraft:deepslate_emerald_ore",
+      "minecraft:emerald_ore"
+    ],
+    "resultItems": "minecraft:air"
+  }
+]

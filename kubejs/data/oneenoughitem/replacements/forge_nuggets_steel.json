@@ -1,0 +1,9 @@
+[
+  {
+    "matchItems": [
+      "tconstruct:steel_nugget",
+      "mekanism:nugget_steel"
+    ],
+    "resultItems": "gtceu:steel_nugget"
+  }
+]

@@ -1,0 +1,82 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "2A425092DC7920BD"
+	group: ""
+	icon: "minecraft:emerald"
+	id: "2A425092DC7920BD"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			disable_toast: true
+			id: "551136FDC51B0378"
+			rewards: [{
+				auto: "no_toast"
+				id: "00C02C936D921224"
+				table_id: 5315536005854800609L
+				type: "random"
+			}]
+			subtitle: "小赌怡小情，大赌怡大情"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "2B057F4E2BAC3908"
+				item: "kubejs:originium_ingot"
+				type: "item"
+			}]
+			title: "你是否相信你的运气"
+			x: -12.0d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5614818CF915050B"]
+			description: ["有点亏"]
+			hide_dependency_lines: true
+			hide_until_deps_complete: true
+			id: "42668B45FE406143"
+			rewards: [{
+				ftb_money: 1L
+				id: "3F028BB457E5A309"
+				type: "sdmshop:money"
+			}]
+			subtitle: "只是前期用用"
+			tasks: [{
+				consume_items: true
+				id: "06979FE9AE6881B3"
+				item: "kubejs:originium_ingot"
+				type: "item"
+			}]
+			title: "1x 源石锭 → 1x 比特币"
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			description: ["不知道呢"]
+			id: "5614818CF915050B"
+			rewards: [{
+				ftb_money: 2L
+				id: "42E652DB49BDB505"
+				type: "sdmshop:money"
+			}]
+			subtitle: "为什么会有这种活动"
+			tasks: [{
+				consume_items: true
+				id: "3A2B566E1CE87D5D"
+				item: "kubejs:originium_ingot"
+				type: "item"
+			}]
+			title: "1x 源石锭 → 2x 比特币（&b首充双倍！&r）"
+			x: -9.0d
+			y: -5.0d
+		}
+	]
+	subtitle: [
+		"&o不是盟友也不是敌人，有些人喜欢站在中间"
+		"可以消耗&a&l源石锭&r购买少量\"&e也许&r\"对你有用的小玩意"
+	]
+	title: "诡意行商"
+}

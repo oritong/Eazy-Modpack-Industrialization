@@ -1,0 +1,22 @@
+[
+  {
+    "matchItems": [
+      "gtceu:basalt_cobalt_ore",
+      "gtceu:blackstone_cobalt_ore",
+      "gtceu:andesite_cobalt_ore",
+      "gtceu:deepslate_cobalt_ore",
+      "gtceu:diorite_cobalt_ore",
+      "gtceu:endstone_cobalt_ore",
+      "gtceu:granite_cobalt_ore",
+      "gtceu:gravel_cobalt_ore",
+      "gtceu:marble_cobalt_ore",
+      "gtceu:netherrack_cobalt_ore",
+      "gtceu:red_granite_cobalt_ore",
+      "gtceu:red_sand_cobalt_ore",
+      "gtceu:sand_cobalt_ore",
+      "gtceu:tuff_cobalt_ore",
+      "tconstruct:cobalt_ore"
+    ],
+    "resultItems": "minecraft:air"
+  }
+]

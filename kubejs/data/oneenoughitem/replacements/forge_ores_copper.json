@@ -1,0 +1,23 @@
+[
+  {
+    "matchItems": [
+      "gtceu:basalt_copper_ore",
+      "gtceu:blackstone_copper_ore",
+      "gtceu:andesite_copper_ore",
+      "gtceu:deepslate_copper_ore",
+      "gtceu:diorite_copper_ore",
+      "gtceu:endstone_copper_ore",
+      "gtceu:granite_copper_ore",
+      "gtceu:gravel_copper_ore",
+      "gtceu:marble_copper_ore",
+      "gtceu:netherrack_copper_ore",
+      "gtceu:red_granite_copper_ore",
+      "gtceu:red_sand_copper_ore",
+      "gtceu:sand_copper_ore",
+      "gtceu:tuff_copper_ore",
+      "minecraft:copper_ore",
+      "minecraft:deepslate_copper_ore"
+    ],
+    "resultItems": "minecraft:air"
+  }
+]

@@ -8,5 +8,9 @@
 	order_index: 1
 	quest_links: [ ]
 	quests: [ ]
+	subtitle: [
+		"已至入髓<&c丑谋&r>时"
+		"敬刻二思算八方 入时者移步尽失"
+	]
 	title: "[&aApplied Energistics 2&r]应用能源2"
 }

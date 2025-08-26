@@ -5,8 +5,12 @@
 	group: "146543A7996E0F1B"
 	icon: "umapyoi:jewel"
 	id: "6A56C72408F6A841"
-	order_index: 12
+	order_index: 11
 	quest_links: [ ]
 	quests: [ ]
+	subtitle: [
+		"已至入髓<&c酉疗&r>时"
+		"敬刻十抚伤愈痕 入时者以眠抗害"
+	]
 	title: "[&aUmapyoi&r]马儿蹦跳"
 }

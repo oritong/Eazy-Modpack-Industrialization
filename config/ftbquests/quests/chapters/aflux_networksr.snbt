@@ -7,6 +7,28 @@
 	id: "6282A384FD4E1F76"
 	order_index: 6
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		description: [
+			"是的，你知道的，在你的空岛下面有一个&8基岩&r"
+			"现在你需要在&8基岩&r上扔若干数量的&4红石粉&r"
+			"然后再把&5黑曜石&r放在基岩的上两格的位置"
+			"最后空手右键&5黑曜石&r"
+			"如果没有听懂，就对着任务里的通量粉尘长按[&cW&r]吧"
+		]
+		id: "5C0E82D028EDA3F2"
+		rewards: [{
+			id: "121EBD254B76B70E"
+			item: "kubejs:originium_ingot"
+			type: "item"
+		}]
+		subtitle: "略微繁琐"
+		tasks: [{
+			id: "1739B4CEE46D9C61"
+			item: "fluxnetworks:flux_dust"
+			type: "item"
+		}]
+		x: 0.5d
+		y: -1.0d
+	}]
 	title: "[&aFlux Networks&r]通量网络"
 }

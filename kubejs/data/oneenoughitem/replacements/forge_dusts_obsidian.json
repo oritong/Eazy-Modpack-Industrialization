@@ -1,0 +1,9 @@
+[
+  {
+    "matchItems": [
+      "create:powdered_obsidian",
+      "mekanism:dust_obsidian"
+    ],
+    "resultItems": "gtceu:obsidian_dust"
+  }
+]

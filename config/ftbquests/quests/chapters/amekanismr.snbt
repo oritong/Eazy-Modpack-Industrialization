@@ -58,5 +58,9 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	title: "[&aMekanism&r]通用机械"
+	subtitle: [
+		"已至入髓<&c子武&r>时"
+		"敬刻一道破勇力 入时者畏惧退避"
+	]
+	title: "[&aMekanism&r]通用机械 概率删除"
 }

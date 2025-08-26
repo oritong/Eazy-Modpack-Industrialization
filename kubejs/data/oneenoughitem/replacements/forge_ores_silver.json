@@ -1,0 +1,21 @@
+[
+  {
+    "matchItems": [
+      "gtceu:basalt_silver_ore",
+      "gtceu:blackstone_silver_ore",
+      "gtceu:deepslate_silver_ore",
+      "gtceu:diorite_silver_ore",
+      "gtceu:endstone_silver_ore",
+      "gtceu:granite_silver_ore",
+      "gtceu:gravel_silver_ore",
+      "gtceu:marble_silver_ore",
+      "gtceu:netherrack_silver_ore",
+      "gtceu:red_granite_silver_ore",
+      "gtceu:red_sand_silver_ore",
+      "gtceu:sand_silver_ore",
+      "gtceu:andesite_silver_ore",
+      "gtceu:tuff_silver_ore"
+    ],
+    "resultItems": "minecraft:air"
+  }
+]

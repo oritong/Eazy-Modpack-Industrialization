@@ -1,0 +1,23 @@
+[
+  {
+    "matchItems": [
+      "gtceu:basalt_lead_ore",
+      "gtceu:blackstone_lead_ore",
+      "gtceu:deepslate_lead_ore",
+      "gtceu:diorite_lead_ore",
+      "gtceu:endstone_lead_ore",
+      "gtceu:granite_lead_ore",
+      "gtceu:gravel_lead_ore",
+      "gtceu:andesite_lead_ore",
+      "gtceu:marble_lead_ore",
+      "gtceu:netherrack_lead_ore",
+      "gtceu:red_granite_lead_ore",
+      "gtceu:red_sand_lead_ore",
+      "gtceu:sand_lead_ore",
+      "gtceu:tuff_lead_ore",
+      "mekanism:deepslate_lead_ore",
+      "mekanism:lead_ore"
+    ],
+    "resultItems": "minecraft:air"
+  }
+]

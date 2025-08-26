@@ -1,0 +1,23 @@
+[
+  {
+    "matchItems": [
+      "gtceu:basalt_iron_ore",
+      "gtceu:blackstone_iron_ore",
+      "gtceu:deepslate_iron_ore",
+      "gtceu:diorite_iron_ore",
+      "gtceu:endstone_iron_ore",
+      "gtceu:granite_iron_ore",
+      "gtceu:gravel_iron_ore",
+      "gtceu:andesite_iron_ore",
+      "gtceu:marble_iron_ore",
+      "gtceu:netherrack_iron_ore",
+      "gtceu:red_granite_iron_ore",
+      "gtceu:red_sand_iron_ore",
+      "gtceu:sand_iron_ore",
+      "gtceu:tuff_iron_ore",
+      "minecraft:deepslate_iron_ore",
+      "minecraft:iron_ore"
+    ],
+    "resultItems": "minecraft:air"
+  }
+]

@@ -1,0 +1,57 @@
+{
+	sdmversion: "1.0.0"
+	shopName: ""
+	shopUUID: [I;
+		-2057943197
+		397231395
+		-1331480584
+		-2029577367
+	]
+	shopTabs: [{
+		tabEntry: [{
+			entryUUID: [I;
+				1678074694
+				146886577
+				-1188216733
+				77854899
+			]
+			entryPrice: 0L
+			entryType: {
+				itemStack: {
+					id: "minecraft:air"
+					Count: 47b
+				}
+				shopEntryTypeID: "shopItemEntryType"
+			}
+			entryCount: 1
+			isSell: 0b
+			icon: {
+				id: "minecraft:barrier"
+				Count: 1b
+			}
+			entryCondition: [{
+				questID: [ ]
+				entryConditionID: "ftbquestConditions"
+			}]
+			shopSeller: {
+				moneyID: "base_money"
+				shopSellerTypeID: "money"
+			}
+		}]
+		icon: {
+			id: "minecraft:barrier"
+			Count: 1b
+		}
+		tabCondition: [{
+			questID: [ ]
+			entryConditionID: "ftbquestConditions"
+		}]
+		shopTabUUID: [I;
+			1467627839
+			-505196604
+			-2043689318
+			-1523605385
+		]
+		title: ""
+	}]
+}

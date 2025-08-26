@@ -7,17 +7,50 @@
 	id: "578936C1E04D4336"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		description: [""]
-		id: "419B152677A6ACE4"
-		subtitle: "非常感谢各位大佬"
-		tasks: [{
-			id: "21006CDB0A049F74"
-			type: "checkmark"
-		}]
-		title: "感谢名单"
-		x: -4.0d
-		y: -1.5d
-	}]
+	quests: [
+		{
+			description: [
+				"hao888麦芽糖（思索BUG修复）"
+				"kyln默寒寒冰（SFM贴图翻新 注：已在SFM的PR中，此材质包为kyln默寒寒冰的SFM的github的fork处打包并下载）"
+			]
+			id: "419B152677A6ACE4"
+			subtitle: "非常感谢各位大佬"
+			tasks: [{
+				id: "21006CDB0A049F74"
+				type: "checkmark"
+			}]
+			title: "感谢名单"
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"1.多看EMI，你会需要的"
+				"2.和原版流程稍有不同，多加注意"
+				"3.会有点坐牢，嗯确实会的"
+				"4.我做了一些违背祖宗的决定"
+			]
+			id: "6BDDADB5AF318EF5"
+			rewards: [{
+				id: "4ED2FA91E1603413"
+				item: {
+					Count: 1
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "还是别提示了"
+			tasks: [{
+				id: "48520BB1D985C6CA"
+				type: "checkmark"
+			}]
+			title: "玩前提示"
+			x: 1.0d
+			y: -1.5d
+		}
+	]
 	title: "欢迎来到整合包！"
 }

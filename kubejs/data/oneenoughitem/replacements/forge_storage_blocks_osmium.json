@@ -1,0 +1,8 @@
+[
+  {
+    "matchItems": [
+      "gtceu:osmium_block"
+    ],
+    "resultItems": "mekanism:block_osmium"
+  }
+]

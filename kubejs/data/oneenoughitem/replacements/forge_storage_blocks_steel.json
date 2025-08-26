@@ -1,0 +1,9 @@
+[
+  {
+    "matchItems": [
+      "tconstruct:steel_block",
+      "gtceu:steel_block"
+    ],
+    "resultItems": "mekanism:block_steel"
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "matchItems": [
+      "mekanism:uranium_ore"
+    ],
+    "resultItems": "mekanism:deepslate_uranium_ore"
+  }
+]

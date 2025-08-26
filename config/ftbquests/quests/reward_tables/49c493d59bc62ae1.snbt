@@ -1,0 +1,16 @@
+{
+	icon: "kubejs:originium_ingot"
+	id: "49C493D59BC62AE1"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ count: 2147483647, item: "kubejs:originium_ingot", weight: 0.25f }
+		{ count: 50, item: "kubejs:originium_ingot", weight: 50.0f }
+		{ count: 12, item: "kubejs:originium_ingot", weight: 150.0f }
+		{ count: 10, item: "kubejs:originium_ingot", weight: 250.0f }
+		{ count: 5, item: "kubejs:originium_ingot", weight: 300.0f }
+		{ count: 2, item: "kubejs:originium_ingot", weight: 200.0f }
+		{ item: "kubejs:originium_ingot", weight: 185.0f }
+	]
+	title: "源石锭转盘"
+}

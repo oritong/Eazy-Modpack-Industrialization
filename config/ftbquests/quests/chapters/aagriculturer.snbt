@@ -8,5 +8,9 @@
 	order_index: 0
 	quest_links: [ ]
 	quests: [ ]
+	subtitle: [
+		"已至入髓<&c巳农&r>时"
+		"敬刻六谷稻丰足 入时者朴食多餐"
+	]
 	title: "[&3Agriculture&r]一些农业模组"
 }

@@ -8,5 +8,9 @@
 	order_index: 2
 	quest_links: [ ]
 	quests: [ ]
+	subtitle: [
+		"已至入髓<&c寅诗&r>时"
+		"敬刻三白日逍遥 入时者所思非人"
+	]
 	title: "[&aArs Nouveau&r]新生魔艺"
 }

@@ -11,6 +11,12 @@
 		{
 			dependencies: ["467BC57CC9275472"]
 			id: "530415B3D7862FD0"
+			rewards: [{
+				id: "5F4F2BFF813E9B73"
+				item: "kubejs:originium_ingot"
+				random_bonus: 2
+				type: "item"
+			}]
 			shape: "circle"
 			tasks: [{
 				id: "2B5434B3FE82A971"
@@ -68,15 +74,15 @@
 			dependencies: ["7DB5E00D24989107"]
 			id: "5E48A488D2DD5CA3"
 			tasks: [{
-				id: "535BFB3C488EC4A1"
+				id: "597B98F0A7D3A7D2"
 				item: {
 					Count: 1
 					id: "ftbfiltersystem:smart_filter"
 					tag: {
-						"ftbfiltersystem:filter": "item_tag(arsdelight:leaves)"
+						"ftbfiltersystem:filter": "mod(ars_nouveau)item_tag(minecraft:leaves)"
 					}
 				}
-				title: "树叶"
+				title: "四种至高木树叶"
 				type: "item"
 			}]
 			title: "四种至高木树叶"
@@ -147,8 +153,8 @@
 				item: "minecraft:carrot"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -1.75d
+			x: -2.75d
+			y: 0.5d
 		}
 		{
 			can_repeat: true
@@ -172,8 +178,8 @@
 				type: "item"
 			}]
 			title: "胡萝卜换宝石胡萝卜"
-			x: -2.5d
-			y: 0.5d
+			x: -1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["772BBCC4D32725B4"]
@@ -544,10 +550,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: [
-				"53915F54D1010D70"
-				"01D7AB403955042F"
-			]
+			dependencies: ["01D7AB403955042F"]
 			id: "4959EC9059915D72"
 			tasks: [{
 				id: "776D6D66B6893660"
@@ -748,13 +751,8 @@
 		}
 		{
 			dependencies: ["6A6C01A5D0EA0E3F"]
-			description: ["由于mbd2的神秘BUG，该机器暂时只能用流体管道取出液体"]
+			description: [""]
 			id: "42EEA038B572FCF9"
-			rewards: [{
-				id: "50834F4232002049"
-				item: "mekanism:basic_fluid_tank"
-				type: "item"
-			}]
 			subtitle: "焦糖可乐"
 			tasks: [
 				{
@@ -763,6 +761,7 @@
 					type: "item"
 				}
 				{
+					count: 25L
 					id: "24C3E260058557BD"
 					item: "gtceu:coke_oven_bricks"
 					type: "item"
@@ -860,7 +859,10 @@
 			y: -0.5d
 		}
 		{
-			dependencies: ["6A53CC0D9BA722DB"]
+			dependencies: [
+				"6A53CC0D9BA722DB"
+				"4CF1449F7F0BA6E1"
+			]
 			description: [
 				"能装&e100w&r&bmana&r，相当于&a100&r个&c魔源罐&r（"
 				"同时，有些物品需要在此池子中投掷合成"
@@ -978,8 +980,8 @@
 					type: "item"
 				}
 			]
-			x: 17.5d
-			y: 1.5d
+			x: 21.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["064BD63CBEBE8939"]
@@ -989,7 +991,7 @@
 				item: "kubejs:uncooked_steel_dust"
 				type: "item"
 			}]
-			x: 17.5d
+			x: 23.5d
 			y: 3.5d
 		}
 		{
@@ -997,11 +999,11 @@
 			id: "4CF1449F7F0BA6E1"
 			tasks: [{
 				id: "42213AE20E098A3E"
-				item: "mekanism:ingot_steel"
+				item: "gtceu:steel_ingot"
 				type: "item"
 			}]
-			x: 19.5d
-			y: 3.5d
+			x: 23.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["4CF1449F7F0BA6E1"]
@@ -1011,8 +1013,8 @@
 				item: "minecraft:blast_furnace"
 				type: "item"
 			}]
-			x: 19.5d
-			y: 5.5d
+			x: 25.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5C4797B4736D0E6D"]
@@ -1022,8 +1024,8 @@
 				item: "gtceu:annealed_copper_ingot"
 				type: "item"
 			}]
-			x: 21.5d
-			y: 5.5d
+			x: 25.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["6EC78D1249045DBC"]
@@ -1033,8 +1035,8 @@
 				item: "create:copper_casing"
 				type: "item"
 			}]
-			x: 23.5d
-			y: 5.5d
+			x: 27.5d
+			y: 3.5d
 		}
 		{
 			dependencies: [
@@ -1050,8 +1052,8 @@
 				item: "mbd2:advanced_furnace_ii"
 				type: "item"
 			}]
-			x: 21.5d
-			y: 3.5d
+			x: 19.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["6A53CC0D9BA722DB"]
@@ -1098,6 +1100,100 @@
 				type: "item"
 			}]
 			x: 9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["204E3CADFC99A536"]
+			id: "5486ADE94389D7E0"
+			tasks: [{
+				id: "0B100F964DFFF660"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["37D68682D2C7132F"]
+			description: [
+				"矿物染料是什么，不是很懂"
+				"总之你现在&b只能&r从&c神秘花瓣&r里榨取出你想要的玩意了"
+				"但是在砧板还能从某些植物中概率得到一些染料（你用这个配方干什么）"
+			]
+			id: "5E70644EB6FDAAB1"
+			subtitle: "有点抽象了"
+			tasks: [{
+				id: "009F661DA9C2909C"
+				item: {
+					Count: 1
+					id: "ftbfiltersystem:smart_filter"
+					tag: {
+						"ftbfiltersystem:filter": "and(mod(minecraft)item_tag(forge:dyes))"
+					}
+				}
+				title: "一些染料"
+				type: "item"
+			}]
+			title: "染料"
+			x: 21.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["204E3CADFC99A536"]
+			id: "765B39F19D643B56"
+			tasks: [{
+				id: "1A014D2E9C94278A"
+				item: "botania:mana_diamond"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5D1F3E4BB5C39932"]
+			id: "675C99402C6C6101"
+			tasks: [{
+				id: "4CC9964665051305"
+				item: "ars_nouveau:enchanting_apparatus"
+				type: "item"
+			}]
+			x: 27.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["765B39F19D643B56"]
+			id: "7FD5B12203ABD40E"
+			tasks: [{
+				id: "3CD39D94217C6F14"
+				item: "ars_nouveau:arcane_core"
+				type: "item"
+			}]
+			x: 27.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5486ADE94389D7E0"]
+			id: "5D1F3E4BB5C39932"
+			tasks: [{
+				id: "2F1DAFFA015E0664"
+				item: "ars_nouveau:manipulation_essence"
+				type: "item"
+			}]
+			x: 25.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"675C99402C6C6101"
+				"7FD5B12203ABD40E"
+			]
+			id: "141234C6E7E9EF8A"
+			tasks: [{
+				id: "0179AC2F78C2D491"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: 27.5d
 			y: -4.5d
 		}
 	]

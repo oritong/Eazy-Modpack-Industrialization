@@ -1,0 +1,23 @@
+[
+  {
+    "matchItems": [
+      "gtceu:basalt_coal_ore",
+      "gtceu:blackstone_coal_ore",
+      "gtceu:andesite_coal_ore",
+      "gtceu:deepslate_coal_ore",
+      "gtceu:diorite_coal_ore",
+      "gtceu:endstone_coal_ore",
+      "gtceu:granite_coal_ore",
+      "gtceu:gravel_coal_ore",
+      "gtceu:marble_coal_ore",
+      "gtceu:netherrack_coal_ore",
+      "gtceu:red_granite_coal_ore",
+      "gtceu:red_sand_coal_ore",
+      "gtceu:sand_coal_ore",
+      "gtceu:tuff_coal_ore",
+      "minecraft:coal_ore",
+      "minecraft:deepslate_coal_ore"
+    ],
+    "resultItems": "minecraft:air"
+  }
+]
