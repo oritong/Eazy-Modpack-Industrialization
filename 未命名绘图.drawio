@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.1.2">
+  <diagram name="第 1 页" id="DhGpV0rAvUnkJVU7JO1I">
+    <mxGraphModel dx="1205" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="E3BvX87Im84JljEF5H79-1" value="FTB任务：&lt;div&gt;赠送基础矿机（使用方法→矿机主体+核心矿物块）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E3BvX87Im84JljEF5H79-2" value="基础矿机内部：&lt;div&gt;钻头：概率降低耐久，品质越高产出越多越好&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="474" width="336" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E3BvX87Im84JljEF5H79-4" value="赠送：铁矿机&lt;br&gt;煤矿机&lt;br&gt;产出：粗铁，粗煤&lt;div&gt;解锁：熔炉&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
